@@ -1,0 +1,34 @@
+.cardsContainer img {
+	border: solid transparent 1px;
+	border-top-right-radius: 14px;
+	border-bottom-left-radius: 14px;
+	height: 100%;
+}
+
+.cardsContainer {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 30px;
+	overflow-x: auto;
+}
+
+.cardsFlowContainer {
+	margin: 30px;
+	width: 100%;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.buttonsContainer {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-right: 20px;
+}
